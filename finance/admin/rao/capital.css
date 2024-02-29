@@ -1,0 +1,59 @@
+.flex {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.flex h1, a {
+	color: var(--clr-2);
+}
+
+.flex a {
+	padding-inline-end: 1rem;
+}
+
+.edit, .delete {
+	color: var(--clr-7);
+	font-size: clamp(1rem, 2vw, 1.2rem);
+	text-decoration: none;
+	cursor: pointer;
+}
+
+.delete {
+	border: none;
+	background-color: transparent;
+	color: var(--clr-14);
+}
+
+.update {
+	background-color: var(--clr-5);
+}
+
+.update, .data {
+	color: var(--clr-2);
+	padding: 1rem;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	border-radius: 5px;
+}
+
+.data {
+	background-color: #32cd32;
+}
+
+.update i {
+	cursor: pointer;
+}
+
+.update.closed {
+	display: none;
+}
+
+.deleted {
+	color: var(--clr-2);
+	background-color: var(--clr-14);
+}
+
+.remove {
+	cursor: pointer;
+}
